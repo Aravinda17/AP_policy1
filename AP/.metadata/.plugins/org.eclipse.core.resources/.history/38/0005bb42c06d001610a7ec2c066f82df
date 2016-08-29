@@ -1,0 +1,11 @@
+
+public class NonEngine extends Vehicle{
+	Policy pol = new Policy();
+	public void setNonEngine()
+	{
+		pol.expiry=0;
+		pol.percentOncoming=0;
+		pol.percentSelf=0;
+		pol.policyNo=0;
+	}
+}

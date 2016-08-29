@@ -1,0 +1,19 @@
+
+public class Main {
+
+	static Bajaj obj1= new Bajaj();
+	static HeroHonda obj2 = new HeroHonda();
+	static Honda obj3 = new Honda();
+	static Nissan obj4 = new Nissan();
+	static Giant obj5 = new Giant();
+	static Hercules obj6 = new Hercules();
+	
+	static Object[] array = {obj1,obj2,obj3,obj4,obj5,obj6};
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("Hello");
+		System.out.println(array[obj2]);
+	}
+
+}

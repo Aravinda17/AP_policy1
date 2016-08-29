@@ -1,0 +1,16 @@
+
+public class test {
+
+	int z;
+	public static addition(int x, int y)
+	{
+		z=x+y;
+		System.out.println(z);
+	}
+	public static subtraction(int x, int y)
+	{
+		z=x-y;
+		System.out.println(z);
+	}
+
+}

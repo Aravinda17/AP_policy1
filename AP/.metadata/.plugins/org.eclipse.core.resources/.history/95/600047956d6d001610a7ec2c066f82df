@@ -1,0 +1,39 @@
+import java.util.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+public class Main {
+
+	static Bajaj obj1= new Bajaj();
+	static HeroHonda obj2 = new HeroHonda();
+	static Honda obj3 = new Honda();
+	static Nissan obj4 = new Nissan();
+	static Giant obj5 = new Giant();
+	static Hercules obj6 = new Hercules();
+	
+	static Object[] array = new Object[6];
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("Hello");
+		obj1.set();
+		obj2.set();
+		obj3.set();
+		obj4.set();
+		obj5.set();
+		obj6.set();
+		
+		Vehicle[] array = {obj1,obj2,obj3,obj4,obj5,obj6};
+		System.out.println("Collisions Begin!");
+		Vehicle obj = array[0];
+		System.out.println("I am "+obj1.getModel()+"-"+obj1.getOwnerName()+", collided with "+obj2.getModel()+"-"+obj2.getOwnername());
+		//System.out.println(obj1.policy1.percentSelf);
+		System.out.println("Damages self: "+obj1.damage);
+		System.out.println("Damages oncoming: "+obj2.damage);
+		System.out.println("Settlement details");
+		System.out.println("    oncoming damage status: "+(obj2.damage-((float)obj1.policy1.percentOncoming/100)*obj2.damage));
+		System.out.println("    self damage status: "+(obj1.damage-((float)obj1.policy1.percentSelf/100)*obj1.damage));
+		
+	}
+
+}

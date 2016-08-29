@@ -1,0 +1,4 @@
+
+public interface ThirdParty extends Policy{
+	Policy.percentSelf=80;
+}

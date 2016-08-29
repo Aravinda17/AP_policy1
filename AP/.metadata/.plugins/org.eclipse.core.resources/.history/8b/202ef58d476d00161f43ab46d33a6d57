@@ -1,0 +1,8 @@
+
+public interface ThirdParty extends Policy{
+
+	public void setPolicy()
+	{
+		
+	}
+}

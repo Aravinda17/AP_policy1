@@ -1,0 +1,10 @@
+
+
+public class Giant extends TwoWheelerNonEngine{
+    Policy Policy1 = new Policy();
+	public void set()
+	{
+		noOfWheels=2;
+		model="Giant";
+	}
+}

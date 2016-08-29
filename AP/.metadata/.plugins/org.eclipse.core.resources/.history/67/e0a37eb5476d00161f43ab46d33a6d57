@@ -1,0 +1,5 @@
+
+public class Policy {
+	int policyNo;
+	int expiry;
+}

@@ -1,0 +1,7 @@
+public class Bajaj extends TwoWheelerEngine{
+	public void set()
+	{
+		noOfWheels=2;
+		model="Bajaj";
+	}
+}

@@ -1,0 +1,13 @@
+
+public class Main {
+
+	static Bajaj obj1= new Bajaj();
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello");
+		obj1.set();
+		System.out.println(obj1.noOfWheels);
+	}
+
+}

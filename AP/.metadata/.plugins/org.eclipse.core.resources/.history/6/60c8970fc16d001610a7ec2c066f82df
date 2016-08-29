@@ -1,0 +1,6 @@
+
+public class NonEngine extends Vehicle{
+	NoPolicy pol = new NoPolicy();
+	pol.expiry=0;
+	
+}

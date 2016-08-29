@@ -1,0 +1,7 @@
+
+public class ThirdParty extends Policy{
+	public void setPolicy()
+	{
+		percentOncoming=80;
+	}
+}

@@ -1,0 +1,13 @@
+
+public class Board 
+{
+	public static void 
+
+	public static void main(String[] args) 
+	{
+		System.out.println("1. Player1 vs Player2");
+		
+
+	}
+
+}

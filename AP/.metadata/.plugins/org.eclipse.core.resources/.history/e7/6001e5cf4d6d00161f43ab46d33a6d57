@@ -1,0 +1,9 @@
+public class Bajaj extends TwoWheelerEngine{
+	ThirdParty policy;
+	public void set()
+	{
+		noOfWheels=2;
+		model="Bajaj";
+		policy.setPolicy(2018,1111);
+	}
+}

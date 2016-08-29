@@ -1,0 +1,7 @@
+
+public class Policy {
+	int policyNo=0;
+	int expiry=0;
+	int percentSelf=0;
+	int percentOncoming=0;
+}

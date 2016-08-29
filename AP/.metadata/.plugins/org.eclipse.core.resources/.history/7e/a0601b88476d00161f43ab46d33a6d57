@@ -1,0 +1,5 @@
+
+public interface Policy {
+	int policyNo=0;
+	int expiry=0;
+}

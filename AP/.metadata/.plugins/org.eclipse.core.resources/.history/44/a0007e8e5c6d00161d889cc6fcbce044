@@ -1,0 +1,10 @@
+
+public class Package extends Policy{
+
+	public void setPolicy(int date)
+	{
+		percentSelf=50;
+		percentOncoming=80;
+		expiry = date;
+	}
+}

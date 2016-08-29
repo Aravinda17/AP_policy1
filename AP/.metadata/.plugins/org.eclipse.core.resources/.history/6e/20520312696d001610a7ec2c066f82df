@@ -1,0 +1,10 @@
+public class HeroHonda extends TwoWheelerEngine{
+    ThirdParty policy1 = new ThirdParty();
+	public void set()
+	{
+		noOfWheels=2;
+		model="HeroHonda";
+        policy1.setPolicy(2014,1001);
+        ownerName="Venkat";
+	}
+}

@@ -1,0 +1,9 @@
+
+public class ThirdParty extends Policy{
+	public void setPolicy(int date, int number)
+	{
+		percentOncoming=80;
+		expiry= date;
+		policyNo=number;
+	}
+}

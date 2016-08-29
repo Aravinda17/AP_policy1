@@ -1,0 +1,71 @@
+import java.util.Scanner;
+import java.util.Random;
+public class Board 
+{
+	
+	public static void printGrid(char[][] grid)
+	{
+		int i;
+		int j;
+		for(i=0;i<3;i++)
+		{
+			System.out.println("\n");
+			for(j=0;j<3;j++)
+			{
+				System.out.print(grid[i][j]);
+				System.out.print(" ");
+			}
+		}
+	}
+
+	public static void main(String[] args) 
+	{
+		char [][] grid = new char [3][3];
+		int i,j;
+		for(i=0;i<3;i++)
+		{
+			for(j=0;j<3;j++)
+			{
+				grid[i][j]='-';
+			}
+		}
+		System.out.println("1. Player1 vs Player2");
+		System.out.println("2. Player1 vs Random");
+		System.out.println("3. Random vs AI");
+		System.out.println("4. AI vs Player1");
+		Scanner scan = new Scanner(System.in);
+		int x;
+		x=scan.nextInt();
+		if(x==1)
+		{
+			//Player vs Player
+			printGrid(grid);
+			
+		}
+		if(x==2)
+		{
+			//Player vs Random
+			printGrid(grid);
+			
+		}
+		if(x==3)
+		{
+			//Random vs AI
+			printGrid(grid);
+			
+		}
+		if(x==4)
+		{
+			//AI vs Player
+			printGrid(grid);
+			
+		}
+		else
+		{
+			System.out.println("Invalid Selection");
+		}
+		
+
+	}
+
+}

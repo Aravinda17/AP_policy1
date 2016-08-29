@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Vehicle {
+	int noOfWheels;
+	String ownerName = new String();
+	String model= new String();
+	int damage;
+	Policy pol = new Policy();
+  
+	public void setOwnerName()
+	{
+		System.out.println("Enter the name of the owner: ");
+		Scanner scan = new Scanner(System.in);
+		ownerName=scan.nextLine();
+	}
+	public String getOwnername()
+	{
+		return ownerName;
+	}
+	public String getModel()
+	{
+		return model;
+	}
+}
